@@ -1,4 +1,5 @@
 Запустить 
-1. composer install
-2. Создать и настроить доступ к базе в файле common/config/main-local.php
-3. php yii migrate
+1. composer install --ignore-platform-reqs
+2. php init
+3. Создать и настроить доступ к базе в файле common/config/main-local.php
+4. php yii migrate
